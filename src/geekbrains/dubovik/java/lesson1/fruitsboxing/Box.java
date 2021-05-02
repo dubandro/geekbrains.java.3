@@ -3,7 +3,7 @@ package geekbrains.dubovik.java.lesson1.fruitsboxing;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Box <F extends Fruits> {
+public class Box <F extends Fruits & Packable> {
     ArrayList<F> fruitBox;
 
     public Box(F... fruit) {

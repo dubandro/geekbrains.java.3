@@ -6,7 +6,7 @@ public class FruitsBoxing {
         Box<Apple> appleBox1 = new Box<>(new Apple(), new Apple(), new Apple());
         Box<Apple> appleBox2 = new Box<>(new Apple(), new Apple());
         Box<Orange> orangeBox = new Box<>(new Orange(), new Orange());
-//        Box<Fruits> crazyMix = new Box<>(new Apple(), new Orange(), new Fruits(2.0f)); нам запретили смешивать
+//        Box<Fruits> crazyMix = new Box<>(new Apple(), new Orange()); нам запретили смешивать
 
         System.out.println(appleBox1.boxWeight());
         System.out.println(appleBox2.boxWeight());
