@@ -1,6 +1,6 @@
 package geekbrains.dubovik.java.lesson1.fruitsboxing;
 
-public abstract class Fruits {
+public class Fruits {
     float weight;
 
     public Fruits(float weight) {
