@@ -36,7 +36,7 @@ public class Car implements Runnable {
             race.getStages().get(i).go(this);
         }
         race.getFinish().countDown();
-        int finishPosition = CARS_COUNT - (int) race.getFinish().getCount();
+        int finishPosition = CARS_COUNT - (int)(race.getFinish().getCount());
         double raceResult = (double) (System.currentTimeMillis() - startTime) / 1_000;
         System.out.printf("%s закончил гонку %d-м за %.3f секунд\n", this.name, finishPosition, raceResult);
     }
